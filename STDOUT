@@ -1,0 +1,5 @@
+
+@RegressionTests @Raj
+Scenario: Navigate                                     [90m# src/test/java/featureFile/FF01_NavToSite.feature:8[0m
+  [32mGiven [0m[32mopen browser and enter url and press enter key[0m [90m# stepDefinations.SD01_NavToSite.open_browser_and_enter_url_and_press_enter_key()[0m
+  [32mThen [0m[32msystem navigates to homepage of HN[0m              [90m# stepDefinations.SD01_NavToSite.system_navigates_to_homepage_of_hn()[0m

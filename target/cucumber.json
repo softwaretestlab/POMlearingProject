@@ -1,0 +1,65 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-18T08:55:10.747Z",
+        "line": 8,
+        "name": "Navigate",
+        "description": "",
+        "id": "home-page-of-hn-website;navigate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6830000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "open browser and enter url and press enter key",
+            "match": {
+              "location": "stepDefinations.SD01_NavToSite.open_browser_and_enter_url_and_press_enter_key()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "system navigates to homepage of HN",
+            "match": {
+              "location": "stepDefinations.SD01_NavToSite.system_navigates_to_homepage_of_hn()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTests"
+          },
+          {
+            "name": "@Raj"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page of HN website",
+    "description": "",
+    "id": "home-page-of-hn-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFile/FF01_NavToSite.feature",
+    "tags": [
+      {
+        "name": "@RegressionTests",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

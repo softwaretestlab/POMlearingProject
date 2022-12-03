@@ -1,0 +1,5 @@
+RegistrationPage\AT02_CreateAccount.class
+stepDefinations\SD04_DataDrivenTesting.class
+HomePage\AT01_Navigate.class
+runner\TestRunner.class
+stepDefinations\SD01_NavToSite.class
